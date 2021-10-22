@@ -1,0 +1,21 @@
+:root {
+  --font-size-base: 16px;
+  --rhythm-base: 4px;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  padding: calc(var(--rhythm-base) * 4);
+  font-size: var(--font-size-base);
+}
+
+h1 {font-size: calc(var(--font-size-base) *5)}
+h2 {font-size: calc(var(--font-size-base) *4)}
+h3 {font-size: calc(var(--font-size-base) *3)}
+h4 {font-size: calc(var(--font-size-base) *2)}
+h5 {font-size: var(--font-size-base)}
+h6 {font-size: calc(var(--font-size-base) *.5)}
+

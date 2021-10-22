@@ -1,0 +1,29 @@
+{
+  "name": "template-vanilla",
+  "version": "1.0.0",
+  "description": "Template Default for project Vanilla",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "buidl": "rm -fr dist && parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellycodesl/template-vanilla.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Welly Code SL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wellycodesl/template-vanilla/issues"
+  },
+  "homepage": "https://github.com/wellycodesl/template-vanilla#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0"
+  }
+}
