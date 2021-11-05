@@ -1,5 +1,7 @@
+$wellyFontBase: 16;
+
 :root {
-  --w-font-size-base: 18px;
+  --w-font-size-base: #{$wellyFontBase}px;
   --w-rhythm-base: 4px;
 }
 
@@ -8,7 +10,7 @@ html {
 }
 
 body {
-  font-size: var(--w-font-size-base);
+  @include pxToRem('font-size', 18, $wellyFontBase);
   font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased
