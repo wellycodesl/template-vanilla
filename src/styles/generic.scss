@@ -1,6 +1,6 @@
 :root {
-  --font-size-base: 16px;
-  --rhythm-base: 4px;
+  --w-font-size-base: 18px;
+  --w-rhythm-base: 4px;
 }
 
 html {
@@ -8,13 +8,20 @@ html {
 }
 
 body {
-  font-size: var(--font-size-base);
+  font-size: var(--w-font-size-base);
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased
 }
 
-h1 {font-size: calc(var(--font-size-base) *5)}
-h2 {font-size: calc(var(--font-size-base) *4)}
-h3 {font-size: calc(var(--font-size-base) *3)}
-h4 {font-size: calc(var(--font-size-base) *2)}
-h5 {font-size: var(--font-size-base)}
-h6 {font-size: calc(var(--font-size-base) *.5)}
+h1 {font-size: calc(var(--w-font-size-base) *4)}
+h2 {font-size: calc(var(--w-font-size-base) *3)}
+h3 {font-size: calc(var(--w-font-size-base) *2)}
+h4 {font-size: calc(var(--w-font-size-base) *1.5)}
+h5 {font-size: var(--w-font-size-base)}
+h6 {font-size: calc(var(--w-font-size-base) *.8)}
 
+p {
+  margin-bottom: calc(var(--w-rhythm-base)*2);
+  word-break: break-word;
+} 
