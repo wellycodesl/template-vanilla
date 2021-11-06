@@ -2,7 +2,6 @@
 	# GENERIC RESET
 --------------------------------*/
 
-
 html,
 body,
 span,
@@ -109,7 +108,6 @@ dl {
 	#TAGS HTML5 BROWSER NO SUPPORT
 -------------------------------------*/
 
-
 article,
 aside,
 details,
@@ -146,21 +144,13 @@ mark {
 	color: #000;
 }
 
-
-
-
-
 /**
  * Add the correct font size in all browsers.
  */
 
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
-
-
-
-
 
 code,
 kbd,
@@ -170,22 +160,13 @@ samp {
 	font-size: 1.6em;
 }
 
-
-
-
-
 /**
  * Add the correct font style in Android 4.3-.
  */
 
 dfn {
-  font-style: italic;
+	font-style: italic;
 }
-
-
-
-
-
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
@@ -193,14 +174,10 @@ dfn {
  */
 
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
 }
-
-
-
-
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -209,29 +186,26 @@ abbr[title] {
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+	bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+	top: -0.5em;
 }
-
-
-
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 
 img {
-  border-style: none;
+	border-style: none;
 }
 
 /**
@@ -239,13 +213,8 @@ img {
  */
 
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
-
-
-
-
-
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
@@ -253,7 +222,7 @@ svg:not(:root) {
 
 b,
 strong {
-  font-weight: inherit;
+	font-weight: inherit;
 }
 
 /**
@@ -262,13 +231,8 @@ strong {
 
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
-
-
-
-
-
 
 /*-----------------------------------
 	#LINKS
@@ -276,13 +240,13 @@ strong {
 a {
 	cursor: pointer;
 	background-color: transparent;
-    text-decoration-skip: objects;
-	-webkit-text-decoration-skip: objects; 
+	text-decoration-skip: objects;
+	-webkit-text-decoration-skip: objects;
 }
 
 a:focus,
 a:hover {
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 a:visited,
@@ -291,13 +255,8 @@ a:active {
 }
 a:active,
 a:hover {
-  outline-width: 0;
+	outline-width: 0;
 }
-
-
-
-
-
 
 /*-----------------------------------
 	#HEADINGS, WITH AND WITHOUT LINK
@@ -312,11 +271,6 @@ h6 a {
 	color: inherit;
 }
 
-
-
-
-
-
 /*-----------------------------------
 	#RESET TABLE
 -------------------------------------*/
@@ -325,9 +279,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-
 
 /*-----------------------------------
 	#RESET FORM
@@ -344,12 +295,12 @@ input,
 optgroup,
 select,
 textarea {
-  font-size: 100%; /* 1 */
-  line-height: 1.3; /* 1 */
-  margin: 0; /* 2 */
-  -ms-appearance:none; /* 3 */
-  -moz-appearance: none; /* 3 Firefox */
-  -webkit-appearance: none; /* 3 Safari and Chrome */
+	font-size: 100%; /* 1 */
+	line-height: 1.3; /* 1 */
+	margin: 0; /* 2 */
+	-ms-appearance: none; /* 3 */
+	-moz-appearance: none; /* 3 Firefox */
+	-webkit-appearance: none; /* 3 Safari and Chrome */
 }
 
 /**
@@ -358,8 +309,9 @@ textarea {
  */
 
 button,
-input { /* 1 */
-  overflow: visible;
+input {
+	/* 1 */
+	overflow: visible;
 }
 
 /**
@@ -368,8 +320,9 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
-  text-transform: none;
+select {
+	/* 1 */
+	text-transform: none;
 }
 
 /**
@@ -382,7 +335,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+	-webkit-appearance: button; /* 2 */
 }
 
 /**
@@ -393,8 +346,8 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+	border-style: none;
+	padding: 0;
 }
 
 /**
@@ -405,7 +358,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+	outline: 1px dotted ButtonText;
 }
 
 /**
@@ -413,9 +366,9 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /**
@@ -426,12 +379,12 @@ fieldset {
  */
 
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
 }
 
 /**
@@ -440,8 +393,8 @@ legend {
  */
 
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
 }
 
 /**
@@ -449,7 +402,7 @@ progress {
  */
 
 textarea {
-  overflow: auto;
+	overflow: auto;
 }
 
 /**
@@ -459,8 +412,8 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
 }
 
 /**
@@ -469,7 +422,7 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto;
+	height: auto;
 }
 
 /**
@@ -478,8 +431,8 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -488,7 +441,7 @@ textarea {
 
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 /**
@@ -497,19 +450,16 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
 }
-
 
 [type="radio"],
-[type="checkbox"]{
-  + label{
-    cursor: pointer;
-  }
+[type="checkbox"] {
+	+ label {
+		cursor: pointer;
+	}
 }
-
-
 
 /*-----------------------------------
 	#RESET INTERACTIVE
@@ -522,7 +472,7 @@ textarea {
 
 details, /* 1 */
 menu {
-  display: block;
+	display: block;
 }
 
 /*
@@ -530,12 +480,8 @@ menu {
  */
 
 summary {
-  display: list-item;
+	display: list-item;
 }
-
-
-
-
 
 /*-----------------------------------
 	#RESET SCRIPTING
@@ -546,7 +492,7 @@ summary {
  */
 
 canvas {
-  display: inline-block;
+	display: inline-block;
 }
 
 /**
@@ -554,25 +500,20 @@ canvas {
  */
 
 template {
-  display: none;
+	display: none;
 }
-
-
-
 
 /*-----------------------------------
 	#RESET HIDDEN
 -------------------------------------*/
-
 
 /**
  * Add the correct display in IE 10-.
  */
 
 [hidden] {
-  display: none;
+	display: none;
 }
-
 
 /*--------------------------------
 	# END GENERIC RESET
