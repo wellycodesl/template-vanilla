@@ -1,8 +1,9 @@
 $wellyFontBase: 16;
+$wellyRhythmBase: 4;
 
 :root {
   --w-font-size-base: #{$wellyFontBase}px;
-  --w-rhythm-base: 4px;
+  --w-rhythm-base: #{$wellyRhythmBase}px;
 }
 
 html {
